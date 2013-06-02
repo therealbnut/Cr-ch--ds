@@ -1,0 +1,79 @@
+body
+{
+	background-color: #829b55;
+	padding: 0em 4em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#head-logo
+{
+	background-image: url('../images/logo.png');
+	background-size: 100%;
+	margin: 1em auto;
+	width: 357px;
+	height: 75px;
+}
+
+#map
+{
+	width:  384px;
+	height: 384px;
+/*	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+*/}
+
+#content
+{
+	background-color: #90a961;
+	color: #f4f4f4;
+	padding: 0.5em;
+/*	margin-bottom: 180px;*/
+	width:  100%;
+	height: 100%;
+}
+
+#data_results
+{
+	display:inline;
+	float:left;
+}
+
+#footer-monster
+{
+	position: absolute;
+	background-image: url('../images/corner-monster.png');
+	background-size: 100%;
+	margin-left:   -96px;
+	margin-bottom: -48px;
+	width:  252px;
+	height: 164px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx)
+{
+	#head-logo
+	{
+		background-image: url('../images/logo@2x.png');
+	}
+	#footer-monster
+	{
+		background-image: url('../images/corner-monster@2x.png');
+	}
+}
+.govhackchart{
+    display:inline;
+    float:left;
+}
+#typeRegion{
+	font-size:16px;
+}

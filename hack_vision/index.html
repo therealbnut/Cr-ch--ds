@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link rel="stylesheet" href="./style/main.css" type="text/css" />
+<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+<script src="http://code.jquery.com/jquery-1.10.0.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+
+<!-- Google Charts -->
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('visualization', '1', {packages: ['corechart']});
+</script>
+
+
+<script src="./scripts/main.js"></script>
+<script src="./scripts/render_charts.js"></script>
+<script src="./scripts/autocomplete.js"></script>
+
+<title>Cr&ouml;ch&eacute;&acirc;ds</title>
+</head>
+<body>
+    <div id="head-logo">&nbsp;</div>
+	<div id="content">
+		<div id="map_container">
+			<input type="text" id="location" name="location" />
+			<div id="map"></div>
+		</div>
+		<div id="data_results">&nbsp;</div>
+	</div>
+
+	<div id="footer-monster">&nbsp;</div>
+</body>
+
+</html>
